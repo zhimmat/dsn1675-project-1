@@ -36,3 +36,25 @@ main p{
   height: 18rem;
 	background-position: 0;
 }
+@media only screen and (min-width: 38rem) {
+  html{
+    font-size: 110%;
+    line-height: 1.4;
+  }
+}
+@media only screen and (min-width: 60rem) {
+  html{
+    font-size: 120%;
+    line-height: 1.5;
+  }
+}
+@media print{
+  nav{
+    display: none;
+  }
+  main a::after{
+    content: " (" attr(href) ")";
+    color: #999;
+  }
+
+}
