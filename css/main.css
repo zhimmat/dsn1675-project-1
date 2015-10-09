@@ -6,8 +6,7 @@
 
 html{
 	box-sizing: border-box;
-	font-family: 'Noto Sans', sans-serif;
-	-moz-text-size-adjust: 100%;
+font-family: 'Nunito', sans-serif;
 	-ms-text-size-adjust: 100%;
 	-o-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -17,4 +16,23 @@ html{
 }
 *, *::before, *::after{
 	box-sizing: inherit;
+}
+body{
+  margin: 0;
+}
+h1{
+font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+	line-height: 2.6rem;
+	margin: 1.3rem;
+  text-align: center;
+}
+main p{
+	margin: 0 1.3rem 1.3rem 1.3rem;
+}
+.all{
+  background-image: url('../images/Portrait.jpeg');
+	background-size: cover;
+  height: 18rem;
+	background-position: 0;
 }
