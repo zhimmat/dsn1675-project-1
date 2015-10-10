@@ -38,7 +38,8 @@ font-family: 'Nunito', sans-serif;
 }
 .polaroid-images a:after {
 	color: #333;
-	font-size: 20px;
+	font-size: 35px;
+  font-family: 'Nunito', sans-serif;
 	content: attr(title);
 	position: relative;
 	top:15px;
@@ -46,15 +47,6 @@ font-family: 'Nunito', sans-serif;
 .polaroid-images img {
 	display: block;
 	width: inherit;
-}
-
-.banner{
-  max-width: 40em;
-  margin: 0 auto;
-}
-.banner img{
-  width: 100%;
-  border-radius: 50%;
 }
 body{
   margin: 0;
@@ -96,7 +88,7 @@ margin: 0 auto;
   list-style: none;
 }
 .icons li{
-  display: inline-block;;
+  display: inline-block;
 }
 footer{
   font-family: 'Nunito', sans-serif;
