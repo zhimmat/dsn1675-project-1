@@ -37,7 +37,7 @@ font-family: 'Nunito', sans-serif;
         position:relative;
 }
 .polaroid-images a:after {
-	color: #333;
+	color: #a5cdd4;
 	font-size: 35px;
   font-family: 'Nunito', sans-serif;
 	content: attr(title);
@@ -80,6 +80,43 @@ h2{
 max-width: 40em;
 margin: 0 auto;
 }
+.bounce {
+ position: absolute;
+ left: 30%;
+ top:30%;
+ margin-left:-30px;
+ -webkit-border-radius:50%;
+ -moz-border-radius:50%;
+ -ms-border-radius:50%;
+ border-radius:50%;
+ animation: bounce 2s infinite;
+ -webkit-animation: bounce 2s infinite;
+ -moz-animation: bounce 2s infinite;
+ -o-animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+ 40% {-webkit-transform: translateY(-30px);}
+ 60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+ 40% {-moz-transform: translateY(-30px);}
+ 60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+ 40% {-o-transform: translateY(-30px);}
+ 60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-30px);}
+ 60% {transform: translateY(-15px);}
+}
 #artwork{
   max-width: 40em;
   margin: 0 auto;
@@ -93,7 +130,7 @@ margin: 0 auto;
 footer{
   font-family: 'Nunito', sans-serif;
   text-align: center;
-  background-color: #fcf6e8;
+color: #a5cdd4;
 }
 @media only screen and (min-width: 38rem) {
   html{
