@@ -13,7 +13,7 @@ font-family: 'Nunito', sans-serif;
 	text-size-adjust: 100%;
 	line-height: 1.1;
 	font-size: 100%;
-  background-color: #425454;
+  background-color: #fcf6e8;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
@@ -23,7 +23,8 @@ font-family: 'Nunito', sans-serif;
   margin: 0 auto;
 }
 .banner img{
-  width 100%;
+  width: 100%;
+  border-radius: 50%;
 }
 body{
   margin: 0;
@@ -70,7 +71,7 @@ margin: 0 auto;
 footer{
   font-family: 'Nunito', sans-serif;
   text-align: center;
-  background-color: #f4eeb4;
+  background-color: #f8a25a;
 }
 @media only screen and (min-width: 38rem) {
   html{
