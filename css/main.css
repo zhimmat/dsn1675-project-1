@@ -84,6 +84,7 @@ footer{
   font-family: 'Nunito', sans-serif;
   text-align: center;
 color: #a5cdd4;
+text-decoration: none;
 }
 @media only screen and (min-width: 38rem) {
   html{
@@ -93,9 +94,6 @@ color: #a5cdd4;
   p{
     max-width: 30rem;
   }
-  .polaroid-images img {
-
-}
 @media only screen and (min-width: 60rem) {
   html{
     font-size: 120%;
