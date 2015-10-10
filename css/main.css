@@ -35,6 +35,7 @@ font-family: 'Nunito', sans-serif;
 	transition: all .15s linear;
 	z-index:0;
         position:relative;
+        width:100%;
 }
 .polaroid-images a:after {
 	color: #a5cdd4;
@@ -46,7 +47,6 @@ font-family: 'Nunito', sans-serif;
 }
 .polaroid-images img {
 	display: block;
-	width: inherit;
   background-size: cover;
   height: 18rem;
   background-position: 0;
