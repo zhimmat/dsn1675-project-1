@@ -58,7 +58,7 @@ body{
 p{
 font-family: 'Nunito', sans-serif;
 max-width: 40em;
-margin: 0 auto;
+margin: 1rem 2rem;
 }
 h2{
   text-align: center;
@@ -91,7 +91,7 @@ text-decoration: none;
     line-height: 1.4;
   }
   p{
-    max-width: 30rem;
+    max-width: 50rem;
   }
 @media only screen and (min-width: 60rem) {
   html{
@@ -107,7 +107,7 @@ text-decoration: none;
     display: none;
   }
   main a::after{
-    content: " (" attr(href) ")";
+    content: " ("attr(href)")";
     color: #999;
   }
 }
