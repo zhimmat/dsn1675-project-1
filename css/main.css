@@ -15,11 +15,12 @@ font-family: 'Nunito', sans-serif;
 	font-size: 100%;
   background-color: white;
 }
+
 *, *::before, *::after{
 	box-sizing: inherit;
 }
-.polaroid-images a
-{
+
+.polaroid-images a{
 	background: white;
 	display: inline;
 	float: left;
@@ -37,6 +38,7 @@ font-family: 'Nunito', sans-serif;
         position:relative;
         width:100%;
 }
+
 .polaroid-images a:after {
 	color: #a5cdd4;
 	font-size: 35px;
@@ -45,6 +47,7 @@ font-family: 'Nunito', sans-serif;
 	position: relative;
 	top:15px;
 }
+
 .polaroid-images img {
 	display: block;
   background-size: cover;
@@ -52,60 +55,84 @@ font-family: 'Nunito', sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
+
 body{
-  margin: 0;
+  margin: 0 auto;
 }
+
 p{
 font-family: 'Nunito', sans-serif;
-max-width: 40em;
-margin: 1rem 2rem;
+max-width: 20em;
+margin: 0 auto;
+text-align: center;
 }
-h2{
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-.images{
-  width: 100%;
-}
+
 #social{
 max-width: 40em;
 margin: 0 auto;
 }
+
 .icons{
   list-style: none;
 text-align: center;
 margin-left: -2em;
 }
+
 .icons li{
   display: inline-block;
 }
+
 footer{
   font-family: 'Nunito', sans-serif;
   text-align: center;
 color: #a5cdd4;
 text-decoration: none;
 }
+
 @media only screen and (min-width: 38rem) {
   html{
     font-size: 110%;
     line-height: 1.4;
   }
-  p{
-    max-width: 50rem;
+
+  .polaroid-images a:after {
+  	color: #a5cdd4;
+  	font-size: 40px;
+    font-family: 'Nunito', sans-serif;font-weight: 700;
+  	content: attr(title);
+  	position: relative;
+  	top:15px;
   }
+
+  p{
+    max-width: 26rem;
+  }
+
 @media only screen and (min-width: 60rem) {
   html{
     font-size: 120%;
     line-height: 1.5;
   }
+
+  .polaroid-images a:after {
+  	color: #a5cdd4;
+  	font-size: 50px;
+    font-family: 'Nunito', sans-serif;font-weight: 700;
+  	content: attr(title);
+  	position: relative;
+  	top:15px;
+  }
+
   p{
-    max-width: 48rem;
+    max-width: 45rem;
   }
 }
+
 @media print{
   nav{
     display: none;
   }
+
   main a::after{
     content: " ("attr(href)")";
     color: #999;
