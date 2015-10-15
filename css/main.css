@@ -138,13 +138,8 @@ width: 50%;
 }
 }
 
-@media print{
-  nav{
-    display: none;
-  }
-
-  main a::after{
-    content: " ("attr(href)")";
-    color: #999;
-  }
+@media print {
+main li{
+	display: none !important;
+}
 }
