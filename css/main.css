@@ -137,15 +137,12 @@ footer{
 	clear: both;
 }
 }
-@media print {
 
-	main a::after {
-	content: "  ("attr(href)")";
-	}
-	.polaroid-images a{
-		display: none;
-	}
-main{
+@media print {
+.icons{
+display: none;
+}
+.polaroid-images img{
 	display: none;
 }
 }
